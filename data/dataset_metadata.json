@@ -1,0 +1,7 @@
+{
+    "app_name": "Wysa",
+    "data_size": 3000,
+    "cleaned_data_size": 2506,
+    "collection_method": "collected from Google Play store using google_play_scraper (01_collect_or_import.py)",
+    "cleaning_decisions": "applied all cleaning decisions as outlined in project outline"
+}
