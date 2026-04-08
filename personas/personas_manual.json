@@ -1,22 +1,149 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Frustrated Conversational User",
+      "description": "A user who expects natural, intelligent conversations from the chatbot but becomes frustrated when responses are repetitive or fail to understand their input.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Have meaningful and responsive conversations",
+        "Receive personalized and relevant advice",
+        "Feel understood by the chatbot"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Repetitive and generic responses",
+        "Chatbot does not understand user input",
+        "Lack of conversational depth"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the chatbot for emotional support or guidance",
+        "Engaging in proper conversations",
+        "Expecting chatbot to behave like a real listener"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Responses must feel dynamic and non repetitive",
+        "Chatbot must correctly interpret user intent"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "6e9994a0-5c64-41e4-87ae-ff77bb2e4202",
+        "1e0ea548-1136-496e-9b10-9c94ac79682c"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Cost Conscious User",
+      "description": "A user who is interested in the app's mental health support but is frustrated by paywalls, limited free features, and in your face monetization.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Access useful mental health tools for free or low cost",
+        "Explore the app before committing financially",
+        "Get value without constant upselling"
+      ],
+      "pain_points": [
+        "Frequent paywalls interrupting usage",
+        "Limited access to key features without payment",
+        "Feeling pressured to subscribe"
+      ],
+      "context": [
+        "Trying the app for the first time",
+        "Using free tier features",
+        "Comparing with other mental health apps"
+      ],
+      "constraints": [
+        "Core functionality should be available without payment",
+        "Pricing should feel fair and transparent"
+      ],
+      "evidence_reviews": [
+        "e7081ee3-8de0-49d3-90a6-217a48ed0082",
+        "94c91300-a28b-42c2-ac37-41e892a73630"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Mental Health Support User",
+      "description": "A user dealing with anxiety, stress, or depression who uses the app as a supportive tool to manage emotions and improve mental well being.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Manage anxiety and stress",
+        "Understand emotional triggers",
+        "Receive coping strategies and guidance"
+      ],
+      "pain_points": [
+        "Difficulty identifying causes of emotions",
+        "Need for consistent emotional support",
+        "Limited access to professional help"
+      ],
+      "context": [
+        "Using the app during moments of stress or anxiety",
+        "Engaging with exercises like meditation",
+        "Looking for self help solutions"
+      ],
+      "constraints": [
+        "Support must be reliable and accessible anytime",
+        "Advice should feel empathetic and relevant"
+      ],
+      "evidence_reviews": [
+        "f9762037-2e2c-4654-9ade-61e0b91d06b9",
+        "57877b58-2bef-4264-8d96-f911f020dd3a"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Self Improvement User",
+      "description": "A user who values structured mental health techniques and thought reframing to improve their mindset and emotional strength.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Learn and apply mental health techniques",
+        "Improve mindset and confidence",
+        "Develop long term coping strategies"
+      ],
+      "pain_points": [
+        "Difficulty maintaining consistent self improvement habits",
+        "Need for guided and structured exercises",
+        "Occasional lack of motivation"
+      ],
+      "context": [
+        "Using guided exercises and prompts",
+        "Actively engaging in self reflection",
+        "Seeking mental health improvement"
+      ],
+      "constraints": [
+        "Techniques must be easy to follow",
+        "Guidance should be structured and actionable"
+      ],
+      "evidence_reviews": [
+        "dd96e170-d379-4255-b85a-77df5f84257a",
+        "7d257ece-996c-4b54-9c72-3d11e70d8590"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Private Yet Expressive User",
+      "description": "A user who values the app as a safe, private, and non judgmental space to openly express thoughts and emotions.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Express thoughts freely without judgment",
+        "Feel emotionally safe and supported",
+        "Have a private outlet for emotions"
+      ],
+      "pain_points": [
+        "Fear of judgment in real life conversations",
+        "Lack of safe spaces to express emotions",
+        "Difficulty opening up to others"
+      ],
+      "context": [
+        "Using the app as an emotional outlet",
+        "Reflecting on personal thoughts and feelings",
+        "Engaging in private conversations with the chatbot"
+      ],
+      "constraints": [
+        "The app must feel safe and non judgmental",
+        "Privacy and confidentiality must be maintained"
+      ],
+      "evidence_reviews": [
+        "c0a135c8-5482-44ed-9db9-1043d4253bb1",
+        "a0420480-4fae-4398-944b-6d2558cbbc7a"
+      ]
+    }
+  ]
+}

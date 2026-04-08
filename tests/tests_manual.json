@@ -1,16 +1,218 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Non-repetitive responses in conversation",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Start a conversation with the chatbot",
+        "Ask a question",
+        "Continue the conversation for multiple questions"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "Responses are varied and do not repeat previous outputs"
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Relevant response generation",
+      "steps": [
+        "Start a conversation",
+        "Ask a question",
+        "Ask a question referencing earlier input",
+        "Observe response"
+      ],
+      "expected_result": "The response reflects the context of previous messages"
+    },
+
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "FR2",
+      "scenario": "Understanding user intent",
+      "steps": [
+        "Send a message showing stress",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The response addresses the users stress"
+    },
+    {
+      "test_id": "T_manual_4",
+      "requirement_id": "FR2",
+      "scenario": "Handling unclear input",
+      "steps": [
+        "Enter an unclear message",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The chatbot asks clarifying questions or responds appropriately to understand input"
+    },
+
+    {
+      "test_id": "T_manual_5",
+      "requirement_id": "FR3",
+      "scenario": "Free feature accessibility",
+      "steps": [
+        "Open the app for the first time",
+        "Use a core feature",
+        "Complete a full conversation"
+      ],
+      "expected_result": "The user completes the conversation without encountering a paywall"
+    },
+    {
+      "test_id": "T_manual_6",
+      "requirement_id": "FR3",
+      "scenario": "First use user experience",
+      "steps": [
+        "Open the app for the first time",
+        "Start a conversation",
+        "Complete a full conversation"
+      ],
+      "expected_result": "The system allows full basic usage before requiring payment"
+    },
+
+    {
+      "test_id": "T_manual_7",
+      "requirement_id": "FR4",
+      "scenario": "Clear pricing details",
+      "steps": [
+        "try to use a premium feature",
+        "Observe system behavior"
+      ],
+      "expected_result": "The system displays pricing and feature details before restricting access"
+    },
+    {
+      "test_id": "T_manual_8",
+      "requirement_id": "FR4",
+      "scenario": "Subscription details",
+      "steps": [
+        "try to use a premium feature",
+        "Observe system behavior"
+      ],
+      "expected_result": "The system clearly explains subscription requirements and pricing"
+    },
+
+    {
+      "test_id": "T_manual_9",
+      "requirement_id": "FR5",
+      "scenario": "Providing anxiety strategies",
+      "steps": [
+        "Enter a message showing anxiety",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system provides at least one strategy to help"
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR5",
+      "scenario": "Handling emotional distress",
+      "steps": [
+        "Enter a message showing emotional distress",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system responds with supportive and helpful suggestions"
+    },
+
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "FR6",
+      "scenario": "Providing structured exercises",
+      "steps": [
+        "Ask for help managing emotions",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system provides at least one structured exercise"
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "FR6",
+      "scenario": "Provided exercise accuracy",
+      "steps": [
+        "Express feeling overwhelmed",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system provides an appropriate exercise"
+    },
+
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR7",
+      "scenario": "Structured mental health technique",
+      "steps": [
+        "Request mental health advice",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system provides structured mental health guidance"
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR7",
+      "scenario": "Long-term mental health plans",
+      "steps": [
+        "Engage with multiple mental health improvement prompts",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "Each response includes structured long-term techniques"
+    },
+
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR8",
+      "scenario": "Thought reframing response",
+      "steps": [
+        "Enter a negative thought",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system suggests an alternative point of view"
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR8",
+      "scenario": "Encouraging mindset changes",
+      "steps": [
+        "Express self negativity",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system encourages a more positive viewpoint"
+    },
+
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Non-judgmental responses",
+      "steps": [
+        "Share a personal input",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The response is supportive and free of judgment"
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Handling sensitive topics",
+      "steps": [
+        "Share a sensitive input",
+        "Observe system response"
+      ],
+      "expected_result": "The system responds respectfully and without dismissive language"
+    },
+
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Protecting personal information",
+      "steps": [
+        "Enter personal information in conversation",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system does not expose or reuse personal data"
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "Confidentiality assurance",
+      "steps": [
+        "Enter personal information in conversation",
+        "Observe the chatbot response"
+      ],
+      "expected_result": "The system maintains user privacy and does not share information"
     }
   ]
 }

@@ -2,11 +2,108 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Chatbot is repetitive or fails to understand user input",
+      "review_ids": [
+        "6e9994a0-5c64-41e4-87ae-ff77bb2e4202",
+        "1e0ea548-1136-496e-9b10-9c94ac79682c",
+        "cd826d2b-323e-4344-af48-45fb28fb797f",
+        "25fe635b-a3da-4297-9276-2b88544cf896",
+        "4a872d18-b698-41f5-b5df-5d0763c81bfa",
+        "be7ac7cc-62bd-48a1-8645-cfd5ac7da5d6",
+        "b6e5b8a9-0c1f-4366-80e1-4099e2ca1d0c",
+        "808e4683-1b67-4aba-be8d-59cc78d8a700",
+        "b3eac3f1-e5ca-4be8-bf2c-e9cdcbeabb5f",
+        "4cd9648e-5297-4f2b-b15f-bc560f54d4e2"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "far great s redundant repetitive s talk therapy ask question tool lead solution self care tab win t load open app morning slow function phone",
+        "awful repetitive monotony ai s simply waste time repetitive question pay money regret want good counselor use grok claude deep seek well app kindergartener",
+        "repetitive doesn t understand write"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Frustration with paywalls, costs, and limited free access",
+      "review_ids": [
+        "e7081ee3-8de0-49d3-90a6-217a48ed0082",
+        "94c91300-a28b-42c2-ac37-41e892a73630",
+        "a80d4bd8-28f0-4c54-832f-9db0c193b06e",
+        "941d3792-d66d-4b3c-8a37-4066568095b4",
+        "f68d9578-78f6-435c-8b79-24de5c2c01b0",
+        "1668630c-650c-4ccc-ab06-f68d713b7de3",
+        "5e652fcf-626a-4df5-b3f1-e6509927ce9a",
+        "56b34d1e-932f-4799-8163-613efc1bd4ce",
+        "f684233d-04c6-484d-9b12-9f4cfffd26db",
+        "f6fd875f-e817-4e35-8b44-39e140c129c9"
+      ],
+      "example_reviews": [
+        "wysa look promising disturb step s paywall upsell add coach welcome offer countdown exercise lock unlock feel like therapy chop microtransaction ask app focus money bot ignore question repeat can line feeling understandable keep force preset button instead give real answer",
+        "ai bit limit time response activity lock hefty sounding paywall far good mental health app ve try ve try pretty great job devs t complain",
+        "mean end give sample service hit paywall"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Users with anxiety, depression, or mental health issues finding the app useful",
+      "review_ids": [
+        "f9762037-2e2c-4654-9ade-61e0b91d06b9",
+        "57877b58-2bef-4264-8d96-f911f020dd3a",
+        "cb4efd4e-8e34-4c62-a078-ed1bc2159a58",
+        "20a34aad-cedf-4188-a521-c18ed19d44dc",
+        "6dae18e8-00a4-4a1d-93f9-8727b934dccb",
+        "49917cda-2672-4369-9d53-2646c9786775",
+        "09a3f325-4361-4130-9903-db9b46b58570",
+        "859be67e-9654-4cf1-9deb-6d0a1a49360f",
+        "0f9544dc-e417-407b-9ab2-7eb1c43df3b4",
+        "1b001b9c-760e-4f59-94f4-c6b3b01d2962"
+      ],
+      "example_reviews": [
+        "s helpful especially pinpoint cause anxiety stress let open slowly forcefully talk like therapist plan give meditation audio",
+        "love utilize cbt technique help break negative thought cycle relieve anxiety heavy emotion help reset actual video movement meditation think prompt solution focus",
+        "find good app chat tell problem give idea handle thing like stress anxiety etc"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Helpful thought reframing, and mental health techniques",
+      "review_ids": [
+        "dd96e170-d379-4255-b85a-77df5f84257a",
+        "7d257ece-996c-4b54-9c72-3d11e70d8590",
+        "53074c8e-8e93-4c7e-bdaa-4c943dd05398",
+        "de69c32d-c0cf-438c-9f63-1fcd1cc2ccd7",
+        "1579534a-8a85-42e1-9287-cf0382b13157",
+        "c8210212-dfe6-4a9c-bdde-117ea2b08a7e",
+        "b3b33bee-17ad-42d6-a05d-592039cc9b59",
+        "4ea54398-ed84-4f1e-8f5b-0aa577f96266",
+        "c8055021-f9ad-47f2-b7dd-746f4d460335",
+        "23bec842-0ffc-4a55-8dd9-64303f7ab9ac"
+      ],
+      "example_reviews": [
+        "great app free version sober helpful thank team think reframing process gentle push extremely healthy heal mindset",
+        "great app people severe mental health problem",
+        "help lot problem s relief app help boost mental health self esteem suggest getting feel bad need talk help problem"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Valuing the app as a safe, non-judgmental space to express feelings openly",
+      "review_ids": [
+        "c0a135c8-5482-44ed-9db9-1043d4253bb1",
+        "a0420480-4fae-4398-944b-6d2558cbbc7a",
+        "127496b4-65b0-4654-b383-6d8b5a4f54a1",
+        "aa97ffc6-028e-47b7-9f7b-a838a85e5311",
+        "047b1962-13bc-4fef-97d0-650e60d4cb71",
+        "321fea4e-fbce-441c-b7e8-d8d26770cdf1",
+        "3c925e66-f481-41c6-8943-2e5b460e41a4",
+        "4b320e54-0267-4658-af49-8221bfe7206a",
+        "a7f81834-4f68-4b0b-9545-2b8568ed9176",
+        "477ba56c-ccec-41eb-aa25-00cfaf7c5465"
+      ],
+      "example_reviews": [
+        "app great place open thought place not judgmental",
+        "app help month s safe space help figure thought feeling october feel m well place mentally m happy m app definitely worth get help need pay thank",
+        "feel like corner s kind nice appreciate able talk judgement"
       ]
     }
-  ]}
+  ]
+}
