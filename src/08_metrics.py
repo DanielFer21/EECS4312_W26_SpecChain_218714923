@@ -80,7 +80,7 @@ for test in tests:
 testabilityRate = len(reqsWithTests) / requirementsCount
 
 #10 - ambiguity_ratio
-#list of ambiguous words to check against
+#list of ambiguous words to check against in requirements
 vagueWords = ["may", "might", "could", "should", "possibly", "quickly", "rapidly", "instantaneous", "timely",
               "efficient", "significantly better", "usually", "normally", "frequently", "occasionally", "typically", 
               "periodically", "generally", "some", "many", "various", "approximately", "several", "roughly"]
@@ -93,7 +93,6 @@ for line in lines:
             ambiguousCount += 1
 
 ambiguityRatio = ambiguousCount / requirementsCount
-
 
 #put metrics in metrics_auto
 metrics = {
@@ -191,7 +190,7 @@ for test in tests:
 testabilityRate = len(reqsWithTests) / requirementsCount
 
 #10 - ambiguity_ratio
-#list of ambiguous words to check against
+#list of ambiguous words to check against in requirements
 vagueWords = ["may", "might", "could", "should", "possibly", "quickly", "rapidly", "instantaneous", "timely",
               "efficient", "significantly better", "usually", "normally", "frequently", "occasionally", "typically", 
               "periodically", "generally", "some", "many", "various", "approximately", "several", "roughly"]
@@ -221,7 +220,6 @@ metrics = {
 
 with open("../metrics/metrics_manual.json", "w") as f:
     json.dump(metrics, f, indent=4)
-
 
 #---------------------------------------------------------------
 #HYBRID METRICS FILE
@@ -302,7 +300,7 @@ for test in tests:
 testabilityRate = len(reqsWithTests) / requirementsCount
 
 #10 - ambiguity_ratio
-#list of ambiguous words to check against
+#list of ambiguous words to check against in requirements
 vagueWords = ["may", "might", "could", "should", "possibly", "quickly", "rapidly", "instantaneous", "timely",
               "efficient", "significantly better", "usually", "normally", "frequently", "occasionally", "typically", 
               "periodically", "generally", "some", "many", "various", "approximately", "several", "roughly"]
@@ -333,7 +331,7 @@ metrics = {
 with open("../metrics/metrics_hybrid.json", "w") as f:
     json.dump(metrics, f, indent=4)
 
-
+#---------------------------------
 #Combine all metrics into one summary file:
 with open("../metrics/metrics_auto.json", "r") as f:
     metrics_auto = json.load(f)

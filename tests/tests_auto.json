@@ -5,45 +5,45 @@
       "requirement_id": "FR_auto_1",
       "scenario": "Auto-login functionality",
       "steps": [
-        "Launch the mental wellbeing app and navigate to the login page",
-        "Enter valid login credentials and enable auto-login option",
-        "Close the app and reopen it"
+        "Launch the mental wellbeing app",
+        "Enter valid login credentials",
+        "Save login credentials for auto-login",
+        "Close and re-launch the app"
       ],
-      "expected_result": "The app logs in automatically using the previously entered credentials"
+      "expected_result": "The app automatically logs in with the saved credentials without requiring manual login"
     },
     {
       "test_id": "T_auto_2",
       "requirement_id": "FR_auto_2",
-      "scenario": "Automated assessment of mental wellbeing",
+      "scenario": "Automated feedback message display",
       "steps": [
-        "Launch the mental wellbeing app and navigate to the assessment section",
-        "Complete the required fields and submit the assessment",
-        "Verify that the app generates a personalized report based on the user's input"
+        "Launch the mental wellbeing app and navigate to the dashboard",
+        "Trigger an automated feedback message by completing a mental health assessment",
+        "Verify the feedback message is displayed on the dashboard"
       ],
-      "expected_result": "The app successfully generates and displays a personalized mental wellbeing report, including recommendations for improvement."
+      "expected_result": "The automated feedback message is displayed on the dashboard with relevant and supportive content"
     },
     {
       "test_id": "T_auto_3",
       "requirement_id": "FR_auto_3",
-      "scenario": "Auto-generated content displays correctly for users with high stress levels",
+      "scenario": "Automated mood tracking feature validation",
       "steps": [
-        "Launch the mental wellbeing app and navigate to the stress assessment section",
-        "Complete the stress assessment and trigger a high stress level result",
-        "Verify that the auto-generated content for high stress levels is displayed",
-        "Validate that the content includes recommended actions and resources"
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Enable the automated mood tracking feature",
+        "Simulate a series of user inputs to test the automated tracking functionality"
       ],
-      "expected_result": "The app displays relevant and personalized auto-generated content for users with high stress levels, including actionable advice and links to relevant resources"
+      "expected_result": "The app accurately tracks and displays the user's mood changes over time, reflecting the inputs provided during the simulation"
     },
     {
       "test_id": "T_auto_4",
       "requirement_id": "FR_auto_4",
-      "scenario": "Auto-renewal of mental wellbeing resources",
+      "scenario": "Automated Mood Tracking",
       "steps": [
-        "The user subscribes to a premium feature that provides access to exclusive mental wellbeing resources",
-        "The user's subscription auto-renews after the initial term",
-        "The user receives a notification confirming the auto-renewal and continued access to the resources"
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Select a random mood from the provided options and submit it",
+        "Verify that the submitted mood is recorded and displayed in the app's dashboard"
       ],
-      "expected_result": "The user remains subscribed to the premium feature and continues to have access to the exclusive mental wellbeing resources without interruption"
+      "expected_result": "The app successfully records and displays the user's submitted mood, and it is reflected in the dashboard with a timestamp."
     },
     {
       "test_id": "T_auto_5",
@@ -51,10 +51,10 @@
       "scenario": "Automated mood tracking feature",
       "steps": [
         "Launch the mental wellbeing app and navigate to the mood tracking section",
-        "Log in with valid credentials to access the feature",
-        "Select a current mood state from the provided options"
+        "Select a random mood from the provided options and submit it",
+        "Verify that the submitted mood is displayed on the dashboard"
       ],
-      "expected_result": "The app successfully records the selected mood state and displays a confirmation message"
+      "expected_result": "The submitted mood is accurately recorded and displayed on the dashboard, with a corresponding timestamp"
     },
     {
       "test_id": "T_auto_6",
@@ -63,20 +63,21 @@
       "steps": [
         "Launch the mental wellbeing app and navigate to the mood tracking section",
         "Select a random mood from the provided options and submit it",
-        "Verify that the submitted mood is recorded and displayed in the app's mood history"
+        "Verify that the submitted mood is recorded and displayed in the app's dashboard"
       ],
-      "expected_result": "The app successfully records and displays the user's submitted mood in their mood history, with a timestamp"
+      "expected_result": "The app successfully records and displays the user's submitted mood, and the dashboard reflects the updated mood information"
     },
     {
       "test_id": "T_auto_7",
       "requirement_id": "FR_auto_7",
-      "scenario": "Automated mood tracking feature",
+      "scenario": "Auto-reminders for daily wellbeing check-ins",
       "steps": [
-        "Launch the mental wellbeing app and navigate to the mood tracking section",
-        "Log in with a valid user account to access the feature",
-        "Trigger the automated mood tracking feature for a specified period"
+        "Launch the mental wellbeing app and navigate to the home screen",
+        "Verify that the app prompts the user to set up daily wellbeing check-ins",
+        "Set up daily reminders for wellbeing check-ins and save the settings",
+        "Verify that the app sends auto-reminders for daily wellbeing check-ins at the set time"
       ],
-      "expected_result": "The app successfully tracks and records the user's mood for the specified period and displays the results in a graphical format"
+      "expected_result": "The app successfully sends auto-reminders for daily wellbeing check-ins at the set time and allows the user to access the check-in feature"
     },
     {
       "test_id": "T_auto_8",
@@ -84,33 +85,33 @@
       "scenario": "Automated mood tracking feature",
       "steps": [
         "Launch the mental wellbeing app and navigate to the mood tracking section",
-        "Select a random mood from the given options and submit it",
-        "Verify that the submitted mood is recorded and displayed in the app's dashboard"
+        "Enter a random mood rating and submit it",
+        "Verify that the submitted mood rating is displayed on the mood tracking graph"
       ],
-      "expected_result": "The app successfully records and displays the user's submitted mood, and the dashboard is updated accordingly"
+      "expected_result": "The submitted mood rating is accurately reflected on the mood tracking graph, with the correct rating and timestamp"
     },
     {
       "test_id": "T_auto_9",
       "requirement_id": "FR_auto_9",
-      "scenario": "Automated mood tracking feature",
+      "scenario": "Auto-save feature for user progress",
       "steps": [
         "Launch the mental wellbeing app and navigate to the mood tracking section",
-        "Select a random mood from the provided options and save it",
-        "Verify that the selected mood is displayed on the dashboard",
-        "Repeat steps 1-3 for multiple days to test historical data tracking"
+        "Fill in the mood tracking survey and start the timer",
+        "Simulate an interruption by closing the app before the timer expires",
+        "Relaunch the app and navigate back to the mood tracking section"
       ],
-      "expected_result": "The app accurately tracks and displays the user's mood over time, with the selected mood visible on the dashboard for each day"
+      "expected_result": "The app displays the previously saved mood tracking survey progress, confirming that the auto-save feature successfully retained user data."
     },
     {
       "test_id": "T_auto_10",
       "requirement_id": "FR_auto_10",
-      "scenario": "Auto-registration validation for new users",
+      "scenario": "Automated mood tracking feature",
       "steps": [
-        "Launch the mental wellbeing app and navigate to the registration page",
-        "Enter a valid email address and password, then submit the registration form",
-        "Verify that the app automatically logs in the new user and redirects to the dashboard"
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Select a random mood from the provided options and submit it",
+        "Verify that the submitted mood is displayed on the dashboard"
       ],
-      "expected_result": "The user is successfully auto-registered, logged in, and redirected to the dashboard with their account details"
+      "expected_result": "The submitted mood is accurately displayed on the dashboard, and the dashboard reflects the correct date and time of submission"
     }
   ]
 }

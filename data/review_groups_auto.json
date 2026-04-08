@@ -2,72 +2,72 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "Usability Issues",
+      "theme": "Emotional Support and Help",
       "review_ids": [
-        "d0dc9227-9107-4d76-802f-ac26defc1307",
-        "22f6ecdb-f784-4f0f-8b38-75c9d1fd8f95",
-        "8050720c-1ad1-49b5-8e0d-edef3c2159e8"
+        "45ad1dda-f1ff-477f-85b6-e91e90ab56b3",
+        "d1372c23-12e6-44f2-8a27-5c6f4818446b",
+        "22f6ecdb-f784-4f0f-8b38-75c9d1fd8f95"
       ],
       "example_reviews": [
-        "intake process service frustratingly rigid intrusive demand personal datum clinical care force select list confuse label access help exit app option decline unnecessary question goal mental health support stop create barrier base personal belief major hurdle want straightforward medical assistance",
-        "step step gentle clear assistance",
-        "slow unoptimized response feel robotic relevant say"
+        "help process negative mindset",
+        "actually talk judge helped",
+        "step step gentle clear assistance"
       ]
     },
     {
       "group_id": "G2",
-      "theme": "Emotional Support",
+      "theme": "App Usability and Technical Issues",
       "review_ids": [
-        "3564dbf4-98bd-4d6d-aab5-5ece3d704f35",
-        "5c900ce3-44cf-445e-8ebe-59d6f3e0a23d",
-        "4d41ce05-191a-4f38-a996-988bd9a59c15"
+        "d0dc9227-9107-4d76-802f-ac26defc1307",
+        "95c354b5-eeae-4392-b787-5cf9b53d4b99",
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8"
       ],
       "example_reviews": [
-        "helpful",
-        "fantastic app truly helpful support work problem find solution",
-        "absolutely amazing stuff cbt tool super helpful deal inner conflict app min far feel immediate impact highly encourage try"
+        "intake process service frustratingly rigid intrusive",
+        "app slow frustrating use",
+        "slow unoptimized response feel robotic relevant say"
       ]
     },
     {
       "group_id": "G3",
-      "theme": "Pricing Concerns",
+      "theme": "Pricing and Subscription Concerns",
       "review_ids": [
-        "e5c06977-d504-4779-aa19-9bc926bef7e4",
+        "a0f93d78-c54c-4f4b-91dc-59533025903b",
         "fe447540-20b2-4525-b557-c4c6072edef6",
-        "56be15f4-c9d5-4c92-856b-7e11849eed91"
+        "56b34d1e-932f-4799-8163-613efc1bd4ce"
       ],
       "example_reviews": [
-        "don t like app get topic doesn t understand s",
-        "subscription expensive end day s pay therapist ai pet basically mindfulness pay maybe ai bit intelligence self care not overkill don t new offer m sure intelligent pr team go to good comeback thou",
-        "time wysa love app s extremely high sub cost classic free week forget till charge s predatory ai llm bot good charge money vurable person truefully s disgusting dystopian"
+        "affective actually free unlike app love",
+        "subscription expensive end day s pay therapist ai pet",
+        "doesn t fair price tbh s extremely high sub cost"
       ]
     },
     {
       "group_id": "G4",
-      "theme": "App Functionality",
+      "theme": "Effectiveness and Therapeutic Value",
       "review_ids": [
-        "180e859d-c357-423a-83a2-6745d969a01f",
-        "087ee824c-fb9a-4d35-b231-700f4420176c",
-        "95c354b5-eeae-4392-b787-5cf9b53d4b99"
+        "5c900ce3-44cf-445e-8ebe-59d6f3e0a23d",
+        "4d41ce05-191a-4f38-a996-988bd9a59c15",
+        "e91f299c-4b0f-40d0-8b39-8be08ebf9289"
       ],
       "example_reviews": [
-        "try half hour ask question disregard response repeatedly ask want try ground technique blow live don t need ignore app lol actually wasn t expect want try curiosity know",
-        "app need lot polish frustratingly hard use function work strangely",
-        "app slow frustrating use"
+        "fantastic app truly helpful support work problem find solution",
+        "absolutely amazing stuff cbt tool super helpful",
+        "psyhelp al mindfulness support truly transform way approach mental wellness"
       ]
     },
     {
       "group_id": "G5",
-      "theme": "Effectiveness",
+      "theme": "User Experience and Feedback",
       "review_ids": [
-        "c1dd9db8-30c9-4efa-ba01-81a9ce0f679c",
-        "104198f2-04df-4d49-8ebb-352e5177424d",
-        "2d97b5bb-f962-4a1c-9bb1-37b209742051"
+        "180e859d-c357-423a-83a2-6745d969a01f",
+        "0e86e8db-f3d6-4ca6-955e-62cd79ab7aa5",
+        "f9762037-2e2c-4654-9ade-61e0b91d06b9"
       ],
       "example_reviews": [
-        "feel anxious lot writing wysa help calm visit thank",
-        "app help ve overwhelm overthinke stress thank wysa",
-        "help suffer chronic pain bipolar anxiety panic disorder ptsd etc ve find app helpful have bot listen know connect real person need help"
+        "try half hour ask question disregard response repeatedly",
+        "helpful app talk support",
+        "s helpful especially pinpoint cause anxiety stress"
       ]
     }
   ]
