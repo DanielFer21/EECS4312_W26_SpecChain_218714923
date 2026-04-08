@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "group_id": "G1",
+      "group_id": "G_manual_1",
       "theme": "Chatbot is repetitive or fails to understand user input",
       "review_ids": [
         "6e9994a0-5c64-41e4-87ae-ff77bb2e4202",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "group_id": "G2",
+      "group_id": "G_manual_2",
       "theme": "Frustration with paywalls, costs, and limited free access",
       "review_ids": [
         "e7081ee3-8de0-49d3-90a6-217a48ed0082",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "group_id": "G3",
+      "group_id": "G_manual_3",
       "theme": "Users with anxiety, depression, or mental health issues finding the app useful",
       "review_ids": [
         "f9762037-2e2c-4654-9ade-61e0b91d06b9",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "group_id": "G4",
+      "group_id": "G_manual_4",
       "theme": "Helpful thought reframing, and mental health techniques",
       "review_ids": [
         "dd96e170-d379-4255-b85a-77df5f84257a",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "group_id": "G5",
+      "group_id": "G_manual_5",
       "theme": "Valuing the app as a safe, non-judgmental space to express feelings openly",
       "review_ids": [
         "c0a135c8-5482-44ed-9db9-1043d4253bb1",

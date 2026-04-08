@@ -1,7 +1,7 @@
 {
   "personas": [
     {
-      "id": "P1",
+      "id": "P_manual_1",
       "name": "Frustrated Conversational User",
       "description": "A user who expects natural, intelligent conversations from the chatbot but becomes frustrated when responses are repetitive or fail to understand their input.",
       "derived_from_group": "G1",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "P2",
+      "id": "P_manual_2",
       "name": "Cost Conscious User",
       "description": "A user who is interested in the app's mental health support but is frustrated by paywalls, limited free features, and in your face monetization.",
       "derived_from_group": "G2",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "P3",
+      "id": "P_manual_3",
       "name": "Mental Health Support User",
       "description": "A user dealing with anxiety, stress, or depression who uses the app as a supportive tool to manage emotions and improve mental well being.",
       "derived_from_group": "G3",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "id": "P4",
+      "id": "P_manual_4",
       "name": "Self Improvement User",
       "description": "A user who values structured mental health techniques and thought reframing to improve their mindset and emotional strength.",
       "derived_from_group": "G4",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "id": "P5",
+      "id": "P_manual_5",
       "name": "Private Yet Expressive User",
       "description": "A user who values the app as a safe, private, and non judgmental space to openly express thoughts and emotions.",
       "derived_from_group": "G5",

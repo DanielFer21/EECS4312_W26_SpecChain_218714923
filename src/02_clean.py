@@ -53,6 +53,9 @@ dataFrame["content"] = dataFrame["content"].apply(
 #10. Remove extra whitespace
 dataFrame["content"] = dataFrame["content"].str.replace(r'\s+', ' ', regex=True).str.strip()
 
+#Removing unwanted sections
+dataFrame = dataFrame[["reviewId", "content"]]
+
 #Save cleaned data
 with open("../data/reviews_clean.jsonl", "w", encoding="utf-8") as f:
     for _, row in dataFrame.iterrows():

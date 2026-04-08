@@ -2,7 +2,7 @@
   "tests": [
     {
       "test_id": "T_manual_1",
-      "requirement_id": "FR1",
+      "requirement_id": "FR_manual_1",
       "scenario": "Non-repetitive responses in conversation",
       "steps": [
         "Start a conversation with the chatbot",
@@ -13,7 +13,7 @@
     },
     {
       "test_id": "T_manual_2",
-      "requirement_id": "FR1",
+      "requirement_id": "FR_manual_1",
       "scenario": "Relevant response generation",
       "steps": [
         "Start a conversation",
@@ -26,7 +26,7 @@
 
     {
       "test_id": "T_manual_3",
-      "requirement_id": "FR2",
+      "requirement_id": "FR_manual_2",
       "scenario": "Understanding user intent",
       "steps": [
         "Send a message showing stress",
@@ -36,7 +36,7 @@
     },
     {
       "test_id": "T_manual_4",
-      "requirement_id": "FR2",
+      "requirement_id": "FR_manual_2",
       "scenario": "Handling unclear input",
       "steps": [
         "Enter an unclear message",
@@ -47,7 +47,7 @@
 
     {
       "test_id": "T_manual_5",
-      "requirement_id": "FR3",
+      "requirement_id": "FR_manual_3",
       "scenario": "Free feature accessibility",
       "steps": [
         "Open the app for the first time",
@@ -58,7 +58,7 @@
     },
     {
       "test_id": "T_manual_6",
-      "requirement_id": "FR3",
+      "requirement_id": "FR_manual_3",
       "scenario": "First use user experience",
       "steps": [
         "Open the app for the first time",
@@ -70,7 +70,7 @@
 
     {
       "test_id": "T_manual_7",
-      "requirement_id": "FR4",
+      "requirement_id": "FR_manual_4",
       "scenario": "Clear pricing details",
       "steps": [
         "try to use a premium feature",
@@ -80,7 +80,7 @@
     },
     {
       "test_id": "T_manual_8",
-      "requirement_id": "FR4",
+      "requirement_id": "FR_manual_4",
       "scenario": "Subscription details",
       "steps": [
         "try to use a premium feature",
@@ -91,7 +91,7 @@
 
     {
       "test_id": "T_manual_9",
-      "requirement_id": "FR5",
+      "requirement_id": "FR_manual_5",
       "scenario": "Providing anxiety strategies",
       "steps": [
         "Enter a message showing anxiety",
@@ -101,7 +101,7 @@
     },
     {
       "test_id": "T_manual_10",
-      "requirement_id": "FR5",
+      "requirement_id": "FR_manual_5",
       "scenario": "Handling emotional distress",
       "steps": [
         "Enter a message showing emotional distress",
@@ -112,7 +112,7 @@
 
     {
       "test_id": "T_manual_11",
-      "requirement_id": "FR6",
+      "requirement_id": "FR_manual_6",
       "scenario": "Providing structured exercises",
       "steps": [
         "Ask for help managing emotions",
@@ -122,7 +122,7 @@
     },
     {
       "test_id": "T_manual_12",
-      "requirement_id": "FR6",
+      "requirement_id": "FR_manual_6",
       "scenario": "Provided exercise accuracy",
       "steps": [
         "Express feeling overwhelmed",
@@ -133,7 +133,7 @@
 
     {
       "test_id": "T_manual_13",
-      "requirement_id": "FR7",
+      "requirement_id": "FR_manual_7",
       "scenario": "Structured mental health technique",
       "steps": [
         "Request mental health advice",
@@ -143,7 +143,7 @@
     },
     {
       "test_id": "T_manual_14",
-      "requirement_id": "FR7",
+      "requirement_id": "FR_manual_7",
       "scenario": "Long-term mental health plans",
       "steps": [
         "Engage with multiple mental health improvement prompts",
@@ -154,7 +154,7 @@
 
     {
       "test_id": "T_manual_15",
-      "requirement_id": "FR8",
+      "requirement_id": "FR_manual_8",
       "scenario": "Thought reframing response",
       "steps": [
         "Enter a negative thought",
@@ -164,7 +164,7 @@
     },
     {
       "test_id": "T_manual_16",
-      "requirement_id": "FR8",
+      "requirement_id": "FR_manual_8",
       "scenario": "Encouraging mindset changes",
       "steps": [
         "Express self negativity",
@@ -175,7 +175,7 @@
 
     {
       "test_id": "T_manual_17",
-      "requirement_id": "FR9",
+      "requirement_id": "FR_manual_9",
       "scenario": "Non-judgmental responses",
       "steps": [
         "Share a personal input",
@@ -185,7 +185,7 @@
     },
     {
       "test_id": "T_manual_18",
-      "requirement_id": "FR9",
+      "requirement_id": "FR_manual_9",
       "scenario": "Handling sensitive topics",
       "steps": [
         "Share a sensitive input",
@@ -196,7 +196,7 @@
 
     {
       "test_id": "T_manual_19",
-      "requirement_id": "FR10",
+      "requirement_id": "FR_manual_10",
       "scenario": "Protecting personal information",
       "steps": [
         "Enter personal information in conversation",
@@ -206,7 +206,7 @@
     },
     {
       "test_id": "T_manual_20",
-      "requirement_id": "FR10",
+      "requirement_id": "FR_manual_10",
       "scenario": "Confidentiality assurance",
       "steps": [
         "Enter personal information in conversation",
