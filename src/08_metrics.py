@@ -332,3 +332,23 @@ metrics = {
 
 with open("../metrics/metrics_hybrid.json", "w") as f:
     json.dump(metrics, f, indent=4)
+
+
+#Combine all metrics into one summary file:
+with open("../metrics/metrics_auto.json", "r") as f:
+    metrics_auto = json.load(f)
+ 
+with open("../metrics/metrics_manual.json", "r") as f:
+    metrics_manual = json.load(f)
+ 
+with open("../metrics/metrics_hybrid.json", "r") as f:
+    metrics_hybrid = json.load(f)
+ 
+metrics_combined = {
+    "manual":    metrics_manual,
+    "automated": metrics_auto,
+    "hybrid":    metrics_hybrid
+}
+ 
+with open("../metrics/metrics_summary.json", "w") as f:
+    json.dump(metrics_combined, f, indent=4)
