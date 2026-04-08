@@ -1,31 +1,159 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "id": "P_auto_1",
+      "name": "Frustrated Seeker",
+      "description": "A mental wellbeing app user who values ease of use and straightforward support",
+      "derived_from_group": "G1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Easily access mental health support",
+        "Receive personalized assistance",
+        "Find relevant resources quickly"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Frustrating intake process",
+        "Rigid and intrusive questioning",
+        "Slow and unoptimized app performance"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Seeking mental health support during a crisis",
+        "Preferring a user-friendly app experience",
+        "Having limited time to devote to mental health"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Limited technical expertise",
+        "Emotional vulnerability during app use"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "d0dc9227-9107-4d76-802f-ac26defc1307",
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "removed review to align with group"
+    },
+    {
+      "id": "P_auto_2",
+      "name": "Emma",
+      "description": "Seeking emotional support and guidance for inner conflicts",
+      "derived_from_group": "G2",
+      "goals": [
+        "Find effective solutions to manage emotional struggles",
+        "Improve mental wellbeing through reliable support tools",
+        "Learn healthy coping mechanisms for inner conflicts"
+      ],
+      "pain_points": [
+        "Feeling overwhelmed by emotional challenges",
+        "Lacking immediate support and guidance",
+        "Struggling to find trustworthy resources for mental health"
+      ],
+      "context": [
+        "Actively seeking mental health resources and tools",
+        "Open to trying digital solutions for emotional support",
+        "Values convenience and accessibility in mental health support"
+      ],
+      "constraints": [
+        "Limited time to dedicate to mental health support",
+        "Seeking affordable and accessible solutions",
+        "Prefers discreet and private support options"
+      ],
+      "evidence_reviews": [
+        "3564dbf4-98bd-4d6d-aab5-5ece3d704f35",
+        "5c900ce3-44cf-445e-8ebe-59d6f3e0a23d",
+        "4d41ce05-191a-4f38-a996-988bd9a59c15"
+      ],
+      "notes": "nothing to change"
+    },
+    {
+      "id": "P_auto_3",
+      "name": "Frugal MindSeeker",
+      "description": "A mental wellbeing app user who is price-sensitive and seeks affordable support",
+      "derived_from_group": "G3",
+      "goals": [
+        "To manage mental health effectively",
+        "To access affordable mental wellbeing resources"
+      ],
+      "pain_points": [
+        "High subscription costs for mental wellbeing apps",
+        "Perceived predatory pricing strategies",
+        "Limited free or low-cost options for mental health support"
+      ],
+      "context": [
+        "Active in the mental health and wellbeing space",
+        "Familiar with various mental wellbeing apps and services",
+        "Seeking a cost-effective solution for mental health support"
+      ],
+      "constraints": [
+        "Limited budget for mental health expenses",
+        "Skeptical of expensive subscription-based models",
+        "Prioritizes affordability in decision-making"
+      ],
+      "evidence_reviews": [
+        "e5c06977-d504-4779-aa19-9bc926bef7e4",
+        "56b34d1e-932f-4799-8163-613efc1bd4ce"
+      ],
+      "notes": "removed review to align with group"
+    },
+    {
+      "id": "P_auto_4",
+      "name": "Frustrated User",
+      "description": "A person who struggles with using mental wellbeing apps due to functionality issues",
+      "derived_from_group": "G4",
+      "goals": [
+        "To easily use a mental wellbeing app",
+        "To achieve a sense of calm and relaxation",
+        "To track progress and set goals"
+      ],
+      "pain_points": [
+        "Difficulty navigating the app's features",
+        "Frustrating user experience due to slow performance",
+        "Inability to effectively use the app's techniques"
+      ],
+      "context": [
+        "Seeking mental wellbeing support through mobile apps",
+        "Values ease of use and accessibility",
+        "May have limited technical expertise"
+      ],
+      "constraints": [
+        "Limited time to devote to learning a new app",
+        "May have technical issues with their device"
+      ],
+      "evidence_reviews": [
+        "180e859d-c357-423a-83a2-6745d969a01f",
+        "087ee824c-fb9a-4d35-b231-700f4420176c",
+        "95c354b5-eeae-4392-b787-5cf9b53d4b99"
+      ],
+      "notes": "nothing to change"
+    },
+    {
+      "id": "P_auto_5",
+      "name": "Anxious Seeker",
+      "description": "Individual struggling with anxiety and stress seeking effective relief",
+      "derived_from_group": "G5",
+      "goals": [
+        "Reduce anxiety and stress levels",
+        "Find a reliable source of emotional support",
+        "Improve overall mental wellbeing"
+      ],
+      "pain_points": [
+        "Feeling overwhelmed by anxiety and stress",
+        "Difficulty finding effective coping mechanisms",
+        "Lack of human connection and understanding"
+      ],
+      "context": [
+        "Experiencing chronic stress and anxiety",
+        "Possibly dealing with other mental health conditions",
+        "Seeking convenient and accessible support"
+      ],
+      "constraints": [
+        "Limited time or resources for in-person therapy",
+        "Difficulty opening up to others about mental health",
+        "High expectations for effective solutions"
+      ],
+      "evidence_reviews": [
+        "c1dd9db8-30c9-4efa-ba01-81a9ce0f679c",
+        "104198f2-04df-4d49-8ebb-352e5177424d",
+        "2d97b5bb-f962-4a1c-9bb1-37b209742051"
+      ],
+      "notes": "nothing to change"
     }
   ]
 }

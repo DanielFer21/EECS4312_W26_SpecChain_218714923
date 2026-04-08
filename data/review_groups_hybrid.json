@@ -1,13 +1,75 @@
-{  "groups": [
+{
+  "groups": [
     {
-      "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "group_id": "G1",
+      "theme": "Interaction Usability Issues",
+      "review_ids": [
+        "d0dc9227-9107-4d76-802f-ac26defc1307",
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "intake process service frustratingly rigid intrusive demand personal datum clinical care force select list confuse label access help exit app option decline unnecessary question goal mental health support stop create barrier base personal belief major hurdle want straightforward medical assistance",
+        "slow unoptimized response feel robotic relevant say"
+      ],
+      "notes": "Removed a positive usability review that did not match the negative theme. Refined theme to focus on interaction issues"
+    },
+    {
+      "group_id": "G2",
+      "theme": "Positive Emotional Support",
+      "review_ids": [
+        "3564dbf4-98bd-4d6d-aab5-5ece3d704f35",
+        "5c900ce3-44cf-445e-8ebe-59d6f3e0a23d",
+        "4d41ce05-191a-4f38-a996-988bd9a59c15"
+      ],
+      "example_reviews": [
+        "helpful",
+        "fantastic app truly helpful support work problem find solution",
+        "absolutely amazing stuff cbt tool super helpful deal inner conflict app min far feel immediate impact highly encourage try"
+      ],
+      "notes": "No major issues, just refined theme to reflect positive support"
+    },
+    {
+      "group_id": "G3",
+      "theme": "Pricing Concerns",
+      "review_ids": [
+        "fe447540-20b2-4525-b557-c4c6072edef6",
+        "56b34d1e-932f-4799-8163-613efc1bd4ce"
+      ],
+      "example_reviews": [
+        "subscription expensive end day s pay therapist ai pet basically mindfulness pay maybe ai bit intelligence self care not overkill don t new offer m sure intelligent pr team go to good comeback thou",
+        "doesn t fair price tbh s extremely high sub cost classic free week forget till charge s predatory ai llm bot good charge money vurable person truefully s disgusting dystopian"
+      ],
+      "notes": "Removed review about chatbot not understanding something, also had incorrect Id for reviews, the group now only contains pricing related complaints"
+    },
+    {
+      "group_id": "G4",
+      "theme": "App Performance and Functional Issues",
+      "review_ids": [
+        "180e859d-c357-423a-83a2-6745d969a01f",
+        "087ee824c-fb9a-4d35-b231-700f4420176c",
+        "95c354b5-eeae-4392-b787-5cf9b53d4b99"
+      ],
+      "example_reviews": [
+        "try half hour ask question disregard response repeatedly ask want try ground technique blow live don t need ignore app lol actually wasn t expect want try curiosity know",
+        "app need lot polish frustratingly hard use function work strangely",
+        "app slow frustrating use"
+      ],
+      "notes": "Refined theme to focus on performance and functional issues to differentiate from G1"
+    },
+    {
+      "group_id": "G5",
+      "theme": "Effectiveness for Long-Term Mental Health Support",
+      "review_ids": [
+        "c1dd9db8-30c9-4efa-ba01-81a9ce0f679c",
+        "104198f2-04df-4d49-8ebb-352e5177424d",
+        "2d97b5bb-f962-4a1c-9bb1-37b209742051"
+      ],
+      "example_reviews": [
+        "feel anxious lot writing wysa help calm visit thank",
+        "app help ve overwhelm overthinke stress thank wysa",
+        "help suffer chronic pain bipolar anxiety panic disorder ptsd etc ve find app helpful have bot listen know connect real person need help"
+      ],
+      "notes": "Refined theme to focus on long-term mental health effectiveness to differentiate from G2"
     }
   ]
 }

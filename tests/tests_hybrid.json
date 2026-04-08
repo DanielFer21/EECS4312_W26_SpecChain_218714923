@@ -3,13 +3,123 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Auto-login functionality",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Launch the mental wellbeing app and navigate to the login page",
+        "Enter valid login credentials and enable auto-login option",
+        "Close the app and reopen it"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
+      "expected_result": "The app logs in automatically using the previously entered credentials",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Automated assessment of mental wellbeing",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the assessment section",
+        "Complete the required fields and submit the assessment",
+        "Verify that the app generates a personalized report based on the user's input"
+      ],
+      "expected_result": "The app successfully generates and displays a personalized mental wellbeing report, including recommendations for improvement.",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Auto-generated content displays correctly for users with high stress levels",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the stress assessment section",
+        "Complete the stress assessment and trigger a high stress level result",
+        "Verify that the auto-generated content for high stress levels is displayed",
+        "Validate that the content includes recommended actions and resources"
+      ],
+      "expected_result": "The app displays relevant and personalized auto-generated content for users with high stress levels, including actionable advice and links to relevant resources",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Auto-renewal of mental wellbeing resources",
+      "steps": [
+        "The user subscribes to a premium feature that provides access to exclusive mental wellbeing resources",
+        "The user's subscription auto-renews after the initial term",
+        "The user receives a notification confirming the auto-renewal and continued access to the resources"
+      ],
+      "expected_result": "The user remains subscribed to the premium feature and continues to have access to the exclusive mental wellbeing resources without interruption",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Automated mood tracking feature",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Log in with valid credentials to access the feature",
+        "Select a current mood state from the provided options"
+      ],
+      "expected_result": "The app successfully records the selected mood state and displays a confirmation message",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Automated mood tracking feature",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Select a random mood from the provided options and submit it",
+        "Verify that the submitted mood is recorded and displayed in the app's mood history"
+      ],
+      "expected_result": "The app successfully records and displays the user's submitted mood in their mood history, with a timestamp",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Automated mood tracking feature",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Log in with a valid user account to access the feature",
+        "Trigger the automated mood tracking feature for a specified period"
+      ],
+      "expected_result": "The app successfully tracks and records the user's mood for the specified period and displays the results in a graphical format",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Automated mood tracking feature",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Select a random mood from the given options and submit it",
+        "Verify that the submitted mood is recorded and displayed in the app's dashboard"
+      ],
+      "expected_result": "The app successfully records and displays the user's submitted mood, and the dashboard is updated accordingly",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Automated mood tracking feature",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the mood tracking section",
+        "Select a random mood from the provided options and save it",
+        "Verify that the selected mood is displayed on the dashboard",
+        "Repeat steps 1-3 for multiple days to test historical data tracking"
+      ],
+      "expected_result": "The app accurately tracks and displays the user's mood over time, with the selected mood visible on the dashboard for each day",
+      "notes": "Revised the expected result to match the updated hybrid requirement."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Auto-registration validation for new users",
+      "steps": [
+        "Launch the mental wellbeing app and navigate to the registration page",
+        "Enter a valid email address and password, then submit the registration form",
+        "Verify that the app automatically logs in the new user and redirects to the dashboard"
+      ],
+      "expected_result": "The user is successfully auto-registered, logged in, and redirected to the dashboard with their account details",
       "notes": "Revised the expected result to match the updated hybrid requirement."
     }
   ]
